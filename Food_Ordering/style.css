@@ -1,0 +1,470 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+.top {
+    display: flex;
+  }
+  
+  #upperlogo {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+  }
+  
+  #upperlogo:hover {
+    height: 80px;
+    width: 80px;
+  }
+  
+  .top ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  #lists li a {
+    font-family: "Sedgwick Ave Display";
+    color: white;
+    text-decoration: none;
+    margin: 24px;
+    padding: 5px;
+    font-size: 1.5rem;
+  }
+  
+  #lists li a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .top::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100vw;
+    z-index: -1;
+    opacity: 0.6;
+  }
+  
+  #content {
+    text-align: center;
+    color: white;
+    font-family: "Sedgwick Ave Display";
+    padding-top: 35px;
+  }
+  
+  .navbar::before {
+    content: "";
+    position: absolute;
+    background: url(https://images.unsplash.com/photo-1542834369-f10ebf06d3e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZWF0aW5nJTIwcGl6emF8ZW58MHx8MHx8fDA%3D&w=1000&q=80)
+      no-repeat center center/cover;
+    height: 440px;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    z-index: -1;
+    opacity: 0.89;
+  }
+  
+  #head {
+    color: yellow;
+    font-size: 2.5rem;
+  }
+  
+  #onep {
+    font-family: monospace;
+    font-size: 1.1rem;
+  }
+  
+  button {
+    color: red;
+    font-family: "Sedgwick Ave Display";
+    font-size: 1.2rem;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 35px;
+  }
+  
+  button:hover {
+    background-color: bisque;
+  }
+  
+  .top {
+    /* display: flex;
+      align-items: center; */
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+  
+  #Service {
+    padding: 18px 0px;
+    width: 100vw;
+    background-color: darkgrey;
+    text-align: center;
+    margin-top: 110px;
+    font-size: 2.5rem;
+    font-family: "Sedgwick Ave Display";
+    color: red;
+  }
+  
+  .on {
+    padding-left: 3px;
+  }
+  
+  #photo1,
+  #photo2,
+  #photo3 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 55px;
+    padding-left: 20px;
+  }
+  
+  #item-1,
+  #item-2,
+  #item-3 {
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: #cdcbb7;
+  }
+  
+  .service {
+    display: flex;
+  }
+  
+  .order {
+    background-color: rgb(29, 21, 29);
+    color: chocolate;
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: "Lobster", cursive;
+  }
+  
+  .logoclient {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  #cli {
+    background-image: url(https://media.istockphoto.com/id/859247734/vector/seamless-pizza-slices.jpg?s=612x612&w=0&k=20&c=oYYhWkDwrfd4FjgWnpNS4q57uICwC7PhFAPFap6FMms=);
+  }
+  
+  #client {
+    width: 100vw;
+    padding: 18px 0px;
+    color: red;
+    background-color: darkgrey;
+    font-size: 2.5rem;
+    font-family: "Sedgwick Ave Display";
+    text-align: center;
+  }
+  
+  form {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #contact {
+    width: 100vw;
+    padding: 18px 0px;
+    color: red;
+    background-color: darkgrey;
+    margin: 35px 0px;
+    font-size: 2.3rem;
+    text-align: center;
+    font-family: "Sedgwick Ave Display";
+  }
+  
+  /* input[type="text"]{
+      padding-left: 20px;
+  }
+  
+  input[type="number"]{
+      padding-right: 12px;
+  } */
+  .one {
+    padding-left: 20px;
+  }
+  
+  #two {
+    padding-right: 12px;
+  }
+  
+  #action::before {
+    margin-top: -11px;
+    content: "";
+    position: absolute;
+    height: 248px;
+    background: url(https://www.jumboking.co.in/wp-content/uploads/2023/02/Contact-Us-header-image-2048x533.jpg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+    /* opacity: 0.89; */
+  }
+  
+  footer {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    /* bottom: 0px; */
+    margin-top: 69px;
+    width: 100vw;
+    background-color: black;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  
+  .btn {
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: white;
+    background-color: crimson;
+    font-family: math;
+  }
+  
+  @media screen and (min-width: 664px) and (max-width: 900px) {
+    .service {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    #photo1,
+    #photo2,
+    #photo3 {
+      height: 200px;
+      width: 200px;
+      border-radius: 52%;
+      margin-left: 20px;
+      float: right;
+    }
+  
+    .navbar::before {
+      height: 488px;
+    }
+  
+    #upperlogo:hover {
+      border-radius: 50%;
+      height: 80px;
+      width: 80px;
+    }
+  }
+  
+  @media screen and (min-width: 442px) and (max-width: 664px) {
+    .service {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    #photo1,
+    #photo2,
+    #photo3 {
+      height: 200px;
+      width: 200px;
+      border-radius: 52%;
+      margin-left: 20px;
+      float: right;
+    }
+  
+    #lists li a {
+      font-family: "Sedgwick Ave Display";
+      color: white;
+      text-decoration: none;
+      margin: 9px;
+      padding: 5px;
+      font-size: 1rem;
+    }
+  
+    .navbar::before {
+      height: 519px;
+    }
+  
+    #upperlogo {
+      border-radius: 50%;
+      height: 60px;
+      width: 60px;
+    }
+  
+    .top::before {
+      height: 65px;
+    }
+  }
+  
+  @media screen and (min-width: 300px) and (max-width: 442px) {
+    .service {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    #photo1,
+    #photo2,
+    #photo3 {
+      height: 200px;
+      width: 200px;
+      border-radius: 52%;
+      margin-left: 20px;
+      float: right;
+    }
+  
+    #lists li a {
+      font-family: "Sedgwick Ave Display";
+      color: white;
+      text-decoration: none;
+      margin: 4px;
+      padding: 2px;
+      font-size: 0.8rem;
+    }
+  
+    .navbar::before {
+      height: 582px;
+    }
+  
+    .top::before {
+      content: "";
+      background-color: black;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 51px;
+      width: 100vw;
+      z-index: -1;
+      opacity: 0.6;
+    }
+  
+    #upperlogo {
+      border-radius: 50%;
+      height: 31px;
+      width: 31px;
+      top: 10px;
+      margin-top: 10px;
+      margin-left: 3px;
+    }
+  
+    .order {
+      background-color: #cdcbb7;
+      color: #e64a19;
+      text-align: right;
+      font-size: 0.9rem;
+      /* font-family: 'Lobster', cursive; */
+      display: flex;
+    }
+  
+    .on {
+      display: flex;
+    }
+  
+    #photo1,
+    #photo2,
+    #photo3 {
+      height: 121px;
+      margin-top: 3rem;
+      width: 121px;
+      border-radius: 52%;
+      margin-left: 0px;
+      float: left;
+    }
+  
+    .logoclient {
+      width: 10rem;
+      border-radius: 50%;
+    }
+  
+    #upperlogo:hover {
+      border-radius: 50%;
+      height: 36px;
+      width: 36px;
+    }
+  }
+  
+  @media screen and (max-width: 300px) {
+    .service {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    #photo1,
+    #photo2,
+    #photo3 {
+      height: 200px;
+      width: 200px;
+      border-radius: 52%;
+      margin-left: 20px;
+      float: right;
+    }
+  
+    #lists li a {
+      font-family: "Sedgwick Ave Display";
+      color: white;
+      text-decoration: none;
+      margin: 4px;
+      padding: 2px;
+      font-size: 0.8rem;
+    }
+  
+    .navbar::before {
+      height: 582px;
+    }
+  
+    .top::before {
+      content: "";
+      background-color: black;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 51px;
+      width: 100vw;
+      z-index: -1;
+      opacity: 0.6;
+    }
+  
+    #upperlogo {
+      border-radius: 50%;
+      height: 31px;
+      width: 31px;
+      top: 10px;
+      margin-top: 10px;
+      margin-left: 3px;
+    }
+  
+    .order {
+      background-color: #cdcbb7;
+      color: #e64a19;
+      text-align: right;
+      font-size: 0.9rem;
+      /* font-family: 'Lobster', cursive; */
+      display: flex;
+    }
+  
+    .on {
+      display: flex;
+    }
+  
+    #photo1,
+    #photo2,
+    #photo3 {
+      height: 121px;
+      margin-top: 3rem;
+      width: 121px;
+      border-radius: 52%;
+      margin-left: 0px;
+      float: left;
+    }
+  
+    .logoclient {
+      width: 10rem;
+      border-radius: 50%;
+    }
+  }
+  
