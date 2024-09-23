@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.last::after{
+    background: url(http://source.unsplash.com/random/1600x900/?fitness) no-repeat;
+    content: "";
+    position: absolute;
+    background-size:cover;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 1;
+}
+header {
+    background-image: url(https://wallpapers.com/images/hd/grayscale-celebrity-fame-arnold-schwarzenegger-larhwn9btprqb2k0.webp);
+    color: rgb(232, 229, 223);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+}
+
+.left:hover {
+    transform: scale(1.5);
+}
+
+.left {
+    margin-left: 12px;
+    border-radius: 39px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcyKLzv_VMHruY3p674HG1Avu4wGyS5kgqB-f3QnoVzjrPJpq7TWPVCuVTzntKsq4048M&usqp=CAU);
+    height: 63px;
+    background-size: cover;
+    position: absolute;
+    top: 19px;
+    width: 63px;
+    border: 2px dashed rgb(232, 229, 223);
+    display: inline-block;
+}
+
+.mid:hover {
+    transition-duration: 1s ;
+    background-color: #77795d;
+}
+
+.mid {
+    border-radius: 155px;
+
+    background-color: #00000096;
+    margin: auto;
+    width: 459px;
+}
+
+.right {
+    top: 21px;
+    position: absolute;
+    right: 21px;
+    display: inline-block;
+}
+
+.first li {
+    font-size: medium;
+    line-height: 0px;
+    display: inline-block;
+    margin: 21px;
+}
+
+.first li a:hover {
+    transition-duration: 1s;
+    font-size: large;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+.first li a {
+    font-size: 21px;
+    text-decoration: none;
+    color: white;
+}
+
+.bu:hover {
+    transition-duration: 1s;
+    background-color: burlywood;
+    font-size: large;
+}
+
+.bu {
+    cursor: pointer;
+    line-height: 20px;
+    margin: 6px;
+    background-color: #d5db9a;
+    border-radius: 10px;
+}
+
+.inside1:hover {
+    transition-duration: 1s;
+    background-color: #464340;
+}
+
+.inside1 {
+    border-radius: 55px;
+    background-color: black;
+    padding: 44px;
+    margin: 100px 0px 0px 50px;
+    display: inline-block;
+    border: 2px dashed white;
+}
+
+#fname {
+    margin-bottom: 17px;
+    width: 65px;
+    display: inline-block;
+}
+
+#fage {
+    margin-bottom: 17px;
+    padding-right: 12px;
+    display: inline-block;
+    width: 53px;
+    display: inline-block;
+}
+
+#fgender {
+    margin-bottom: 17px;
+    width: 61px;
+    padding-right: 5px;
+    display: inline-block;
+}
+
+#femail {
+    margin-bottom: 17px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+#fcontact {
+    margin-bottom: 17px;
+    width: 64px;
+    display: inline-block;
+}
+
+.inside {
+    text-align: center;
+    padding: 6px;
+
+}
+
+.heading {
+    font-weight: bold;
+    color: #fefeff;
+}
+
+#subm:hover {
+    transition-duration: 1s;
+    font-weight: bolder;
+    background-color: chocolate;
+}
+
+#subm {
+    background-color: #ff3b7d;
+    margin: 22px;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+img {
+    border-radius: 12%;
+    margin-left: 159px;
+}
+
+.newws {
+    height: 200px;
+    width: 250px;
+}
+.last{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(http://source.unsplash.com/random/1600x900/?fitness/gym/muscleandstrength) ;
+}
